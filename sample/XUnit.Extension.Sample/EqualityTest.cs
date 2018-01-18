@@ -1,8 +1,10 @@
 using Xunit;
 using Xunit.Extension.Equality;
+using Xunit.Extension.TraitAttributes;
 
 namespace XUnit.Extension.Sample
 {
+    [UnitTest]
     public class EqualityTest
     {
         [TheorySentence]
@@ -10,7 +12,7 @@ namespace XUnit.Extension.Sample
         [InlineData(" first", " second")]
         [InlineData(" first", "second")]
         [InlineData("first", "second ")]
-        public void ValueObject_TrimTest(string value1MayContainSpaces, string value2MayContainSpaces)
+        public void SimpleValueObject_TrimTest(string value1MayContainSpaces, string value2MayContainSpaces)
         {
             EqualityTests
                 .For(new SimpleValueObject("first", "second"))
@@ -19,7 +21,7 @@ namespace XUnit.Extension.Sample
         }
 
         [FactSentence]
-        public void ValueObject_FullTest()
+        public void SimpleValueObject_FullTest()
         {
             EqualityTests
                 .For(new SimpleValueObject("first", "second"))

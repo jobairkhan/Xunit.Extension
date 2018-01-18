@@ -7,14 +7,15 @@
     <Authors>M Jobair Khan</Authors>
     <Owners>JKhan-BU</Owners>
     <Company>CT</Company>
-    <Description>
+    <Description>Some extended Xunit based functionalities</Description>
+    <Summary>
       XUnit test Extension and contains
       1. Trait attributes for Unit, Acceptance and Integration Test.
       2. Fact and theory sentence attribute help to add spaces to increase readability.
       3. Equality test. Original equality test code is copied from course 'Improving Testability Through Design' by Zoran Horvat; and changed to work with XUnit
-    </Description>
+    </Summary>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <PackageReleaseNotes>Inital release</PackageReleaseNotes>
+    <PackageReleaseNotes>Update information</PackageReleaseNotes>
     <Copyright>Copyright 2018 (c) M Jobair Khan. All rights reserved.</Copyright>
     <PackageTags>Equality;EqualityTests;Xunit;TestExtension;BestUnion;UnitTest;Acceptance;Integration;Trait</PackageTags>
     <DelaySign>false</DelaySign>
@@ -23,13 +24,13 @@
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>jkhan-xunit-extension.snk</AssemblyOriginatorKeyFile>
-    <AssemblyVersion>1.0.0</AssemblyVersion>
-    <FileVersion>1.0.0</FileVersion>
-    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
+    <FileVersion>1.0.1</FileVersion>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="xunit" Version="2.3.1" />
+    <PackageReference Include="xunit" Version="2.3.0" />
   </ItemGroup>
 
 </Project>

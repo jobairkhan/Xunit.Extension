@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <IsPackable>true</IsPackable>
+
+    <Authors>M Jobair Khan</Authors>
+    <Owners>JKhan-BU</Owners>
+    <Company>CT</Company>
+    <Description>
+      XUnit test Extension and contains
+      1. Trait attributes for Unit, Acceptance and Integration Test.
+      2. Fact and theory sentence attribute help to add spaces to increase readability.
+      3. Equality test. Original equality test code is copied from course 'Improving Testability Through Design' by Zoran Horvat; and changed to work with XUnit
+    </Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>Inital release</PackageReleaseNotes>
+    <Copyright>Copyright 2018 (c) M Jobair Khan. All rights reserved.</Copyright>
+    <PackageTags>Equality;EqualityTests;Xunit;TestExtension;BestUnion;UnitTest;Acceptance;Integration;Trait</PackageTags>
+    <DelaySign>false</DelaySign>
+    <PackageIconUrl></PackageIconUrl>
+    <PackageProjectUrl></PackageProjectUrl>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>jkhan-xunit-extension.snk</AssemblyOriginatorKeyFile>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <FileVersion>1.0.0</FileVersion>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="xunit" Version="2.3.1" />
+  </ItemGroup>
+
+</Project>

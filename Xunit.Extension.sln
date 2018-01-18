@@ -10,11 +10,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sln", "sln", "{DA0729B3-EAC0-40C3-A4A5-80D202827CBF}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xunit.Extension", "src\Xunit.Extension.csproj", "{FE5E09D0-95FA-47E2-B505-1884CFAAF210}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnit.Extension.Sample", "sample\XUnit.Extension.Sample\XUnit.Extension.Sample.csproj", "{E195F7B0-D70F-47B1-A352-FC1FFF72FFBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnit.Extension.Sample", "sample\XUnit.Extension.Sample\XUnit.Extension.Sample.csproj", "{E195F7B0-D70F-47B1-A352-FC1FFF72FFBA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
